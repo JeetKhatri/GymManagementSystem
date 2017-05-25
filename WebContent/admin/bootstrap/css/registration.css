@@ -1,0 +1,14 @@
+
+.regform input:required, .regform textarea:required {
+	background: #fff url(red_asterisk.png) no-repeat 98% center;
+}
+.regform input:required:valid, .regform textarea:required:valid {
+	background: #fff url(valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.regform input:focus:invalid, .regform textarea:focus:invalid {
+	background: #fff url(invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
